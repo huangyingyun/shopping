@@ -101,8 +101,6 @@ router.post('/addCart', function(req, res, next) {
 
     // 根据用户id查询用户数据，确定好用户
     User.findOne({ userId: userId }, function(err, userDoc) {
-        console.log(err, userDoc);
-
 
         let goodItem = '';
 

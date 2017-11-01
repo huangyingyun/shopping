@@ -1,5 +1,5 @@
 const isPro = Object.is(process.env.NODE_ENV, 'production')
 
 module.exports = {
-    baseUrl: isPro ? 'http://shopping.yifann.top/api/' : 'api/'
+    baseUrl: isPro ? 'http://shopping.yingyun.ink/api/' : 'api/'
 }
